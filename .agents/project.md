@@ -1,16 +1,16 @@
 # Project Context
 
-Read before repository work. This is the destination repository's context template: replace placeholders with verified facts and scoped rules. Preserve existing project instructions when adopting it, and link to authoritative sources instead of duplicating them.
+Read before repository work. This is the destination repository's context template. Investigate missing context only as needed for the current task, and record verified facts worth reusing; leave other unknowns explicit. Preserve existing project instructions when adopting it, and link to authoritative sources instead of duplicating them.
 
 ## Purpose and entry points
 
-Not yet recorded. Identify the product, users, runtimes, and relevant entry points from the repository before relying on them. Record only information that helps locate behavior or make a decision.
+Not yet recorded. Identify the product, users, runtimes, and entry points relevant to the task before relying on them. Record only information that helps locate behavior or make a decision.
 
 ## Commands and checks
 
-No commands have been recorded in this template. This does not mean the destination has no checks. Inspect its manifests, CI, and development documentation to identify commands and required gates; report if none exist. Do not invent commands or silently waive unavailable checks.
+No commands have been recorded in this template. This does not mean the destination has no checks. Inspect its manifests, CI, and development documentation to identify commands and required gates applicable to the task; report if none exist. Do not invent commands or silently waive unavailable checks.
 
-Replace the placeholder row with verified entries. Include setup and local start commands when needed, and distinguish required checks from optional diagnostics.
+Replace the placeholder row as relevant commands are verified. Include setup and local start commands when needed, and distinguish required checks from optional diagnostics.
 
 | Applies to | Command or authoritative source | Working directory and prerequisites | Required or optional |
 | --- | --- | --- | --- |

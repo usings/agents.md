@@ -31,9 +31,9 @@ Keep the guides generic; adapt [project context](.agents/project.md) to the dest
 
 | Task | Guide |
 | --- | --- |
-| Changing behavior, fixing a defect, restructuring code, or evaluating tests | [Change and evidence](.agents/change.md) |
-| Designing or changing an interface, ownership, state model, or architecture | [Design](.agents/design.md) |
-| Writing or reviewing documentation for people or agents | [Documentation](.agents/docs.md) |
+| Investigating behavior, implementing or reviewing code changes, evaluating tests, or committing changes | [Engineering](.agents/engineering.md) |
+| Designing, reviewing, or changing interfaces, ownership, state models, or architecture | [Design](.agents/design.md) |
+| Writing, reviewing, or maintaining documentation for people or agents | [Documentation](.agents/documentation.md) |
 | Changing agent instructions or evaluating their effectiveness | [Instructions](.agents/instructions.md) |
 
 Read only the guides the task needs. Project-specific instructions may route to further documentation.

@@ -1,6 +1,6 @@
 # Design
 
-Read when designing or changing an interface, ownership, state model, or architecture. Start from today's confirmed requirements, not from the current file layout.
+Read when designing, reviewing, or changing interfaces, ownership, state models, or architecture. Start from today's confirmed requirements, not from the current file layout.
 
 ## Choose boundaries
 

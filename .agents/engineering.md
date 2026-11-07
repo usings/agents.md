@@ -1,6 +1,6 @@
-# Change and Evidence
+# Engineering
 
-Read when changing behavior, fixing a defect, restructuring code, or evaluating tests. Use one loop: establish the outcome, obtain a sensitive check, change the system, and inspect the result. Skip branches that do not apply.
+Read when investigating behavior, implementing or reviewing code changes, evaluating tests, or committing changes. Connect investigation, implementation, and verification in one loop: establish the outcome, obtain a sensitive check, change the system when authorized, and inspect the result. Skip branches that do not apply.
 
 ## Establish the target and feedback
 
@@ -36,11 +36,11 @@ Read when changing behavior, fixing a defect, restructuring code, or evaluating 
 | Public contract | Representative producers and consumers, including errors and compatibility expectations |
 | Shared state or retries | Conflicting operations, duplicate delivery, and preserved invariants |
 
-Use property, mutation, fuzz, fault-injection, or independent review when it closes a concrete evidence gap. Diff size and reviewer agreement are not risk measures.
+Use property, mutation, fuzz, fault-injection, or independent review when it closes a concrete evidence gap. Do not judge risk from diff size alone. Reviewer agreement does not replace evidence.
 
 ## Inspect the final artifact
 
 - Verify the intended revision and environment. Exercise the original failure or acceptance path and inspect outputs and side effects. A successful run against a stale build does not cover the change.
-- Read the final diff for accidental defaults, missing callers, unrelated edits, and temporary instrumentation. For affected documentation, follow [Documentation](docs.md).
+- Read the final diff for accidental defaults, missing callers, unrelated edits, and temporary instrumentation. For affected documentation, follow [Documentation](documentation.md).
 - For an authorized commit, inspect the staged scope and exclude unrelated user changes. After hooks run, inspect the actual commit and working tree; rerun checks if the artifact they covered changed.
 - In a review, report location, impact, and evidence for each finding. Separate reproduced defects from reasoned risks and preferences. Do not manufacture findings to fill a quota.

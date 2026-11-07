@@ -1,6 +1,6 @@
 # Documentation
 
-Read when writing or reviewing documentation for people or agents. Help the reader complete a task, make a decision, or understand behavior; include only what serves that purpose.
+Read when writing, reviewing, or maintaining documentation for people or agents. Choose useful content, organize it for the reader, write clearly, ground claims in evidence, and keep the document accurate as the system changes.
 
 ## Choose what to document
 

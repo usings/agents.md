@@ -1,6 +1,6 @@
 # Agent Instructions
 
-Read when changing agent instructions or evaluating their effectiveness. Keep these guides reusable across repositories; project facts and scoped rules belong in [project context](project.md). Use [Documentation](docs.md) for reader needs, organization, and wording.
+Read when changing agent instructions or evaluating their effectiveness. Keep these guides reusable across repositories; project facts and scoped rules belong in [project context](project.md). Use [Documentation](documentation.md) for content, organization, clarity, evidence, and maintenance.
 
 ## Maintain the contract
 
@@ -13,5 +13,5 @@ Read when changing agent instructions or evaluating their effectiveness. Keep th
 ## Verify changes
 
 - Inspect local links and anchors, guide reachability from the root, rule ownership, and conflicts. Use the destination's existing checks when available; a prose-only package does not need a new toolchain for this.
-- For consequential rule changes, define acceptance conditions and use [representative task comparisons](evals/scenarios.md). Keep evaluator criteria outside the target workspace. Compare actual outcomes, unsupported claims, unauthorized actions, and cost rather than compliance counts.
+- For consequential rule changes, define acceptance conditions and compare representative tasks in fresh sessions. Compare actual outcomes, unsupported claims, unauthorized actions, and cost rather than compliance counts.
 - Without fresh-session trials, report static findings only. Do not claim that clearer wording has established better agent behavior.
