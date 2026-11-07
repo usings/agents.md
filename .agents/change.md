@@ -41,6 +41,6 @@ Use property, mutation, fuzz, fault-injection, or independent review when it clo
 ## Inspect the final artifact
 
 - Verify the intended revision and environment. Exercise the original failure or acceptance path and inspect outputs and side effects. A successful run against a stale build does not cover the change.
-- Read the final diff for accidental defaults, missing callers, unrelated edits, and temporary instrumentation. Update affected usage documentation; verify changed commands, examples, links, and anchors, marking examples that were not run.
+- Read the final diff for accidental defaults, missing callers, unrelated edits, and temporary instrumentation. For affected documentation, follow [Documentation](docs.md).
 - For an authorized commit, inspect the staged scope and exclude unrelated user changes. After hooks run, inspect the actual commit and working tree; rerun checks if the artifact they covered changed.
 - In a review, report location, impact, and evidence for each finding. Separate reproduced defects from reasoned risks and preferences. Do not manufacture findings to fill a quota.

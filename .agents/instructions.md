@@ -1,6 +1,6 @@
 # Agent Instructions
 
-Read when changing agent instructions or evaluating their effectiveness. Keep these guides reusable across repositories; project facts and scoped rules belong in [project context](project.md).
+Read when changing agent instructions or evaluating their effectiveness. Keep these guides reusable across repositories; project facts and scoped rules belong in [project context](project.md). Use [Documentation](docs.md) for reader needs, organization, and wording.
 
 ## Maintain the contract
 
