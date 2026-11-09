@@ -20,7 +20,7 @@ Replace the placeholder row as relevant commands are verified. Include setup and
 
 Not yet recorded. Identify public APIs, persisted formats, external consumers, and rollout constraints before changing them. Absence from this file does not make an existing contract disposable. Record compatibility requirements and how intentional breaking changes are handled.
 
-## Local rules
+## Rules
 
 No project-specific rules have been recorded. Add only requirements that change a decision in this repository, with their scope and reason; link to existing enforcement when available. These rules may specialize engineering defaults but do not grant new authority or waive truthful reporting.
 
